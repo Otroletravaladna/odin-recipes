@@ -5,14 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-    <li><a href="../odin-recipes/recipes/chipa.html" target="_blank">Chipa Recipe</a></li>
-    <li><a href="../odin-recipes/recipes/asado.html" target="_blank">Asadito Recipe</a></li>
-    <li><a href="../odin-recipes/recipes/pastelitos.html" target="_blank">Pastelitos Recipe</a></li>
-    <li><a href="../odin-recipes/recipes/papas-con-cheddar.html" target="_blank">Cheddar Potatoes</a></li>
+    <div class="header">
+        <div class="dropdown" data-dropdown>
+            <button class="link" data-dropdown-button>ODIN CARLETE</button>
+            <div class="dropdown-menu information-grid">
+                <div>
+                    <div class="dropdown heading">Recetas</div>
+                    <div class="dropdown links">
+                        <a href="../odin-recipes/recipes/asado/asado.html" class="link">Asado</a>
+                        <a href="../odin-recipes/recipes/chipa/chipa.html" class="link">Chipa</a>
+                        <a href="../odin-recipes/recipes/pastelitos/pastelitos.html" class="link">Pastelitos</a>
+                        <a href="../odin-recipes/recipes/papas/papas-con-cheddar.html" class="link">Papitas</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown heading">Mis Animales</div>
+                    <div class="dropdown links">
+                        <a href="#" class="link">Duke</a>
+                        <a href="#" class="link">Pinky</a>
+                        <a href="#" class="link">Ciro</a>
+                        <a href="#" class="link">Enrique</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown heading">Artistas</div>
+                    <div class="dropdown links">
+                        <a href="#" class="link">Bowie</a>
+                        <a href="#" class="link">Zappa</a>
+                        <a href="#" class="link">Borges</a>
+                        <a href="#" class="link">Gilmour</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown heading">Contacto</div>
+                    <div class="dropdown links">
+                        <a href="#" class="link">Instagram</a>
+                        <a href="#" class="link">Facebook</a>
+                        <a href="#" class="link">Whatsapp</a>
+                        <a href="#" class="link">Onlyfans</a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <a href="#" class="link">Playadito</a>
+        <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>Contacto</button>
+        <div class="dropdown-menu">
+            <form class="login-form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        </div>
+        
+    </div>
 </ul>
 </body>
 </html>
